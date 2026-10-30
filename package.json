@@ -1,0 +1,19 @@
+{
+  "name": "madrasa-site",
+  "version": "0.1.0",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit && node scripts/build.mjs",
+    "watch": "node scripts/build.mjs --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "লড়িবাগ মধ্যপাড়া নূরানী হাফিজিয়া মাদ্রাসা ও এতিমখানা — portfolio site",
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "typescript": "^7.0.2"
+  },
+  "private": true,
+  "type": "module"
+}
